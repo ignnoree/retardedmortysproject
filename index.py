@@ -31,7 +31,7 @@ if has_fever and has_cough and has_headache and has_fatigue:
 if has_fever and not has_cough and not has_headache and not has_fatigue:
     diagnosis.append("Possibility of heatstroke.")
 if not has_fever and not has_cough and not has_headache and not has_fatigue:
-    diagnosis.append("✅ You seem to be healthy.")
+    diagnosis.append(" You seem to be healthy.")
 if has_cough and not has_fever:
     diagnosis.append("Possibility of seasonal allergies.")
 
