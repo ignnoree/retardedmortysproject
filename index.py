@@ -51,6 +51,6 @@ if has_fever and has_headache and not has_cough:
 if has_fever and has_fatigue and not has_cough and not has_headache:
     diagnosis.append("Possibility of early viral infection.")
 
-print("\n📋 Diagnosis Results:")
+print("\n Diagnosis Results:")
 for d in diagnosis:
     print("-", d)
